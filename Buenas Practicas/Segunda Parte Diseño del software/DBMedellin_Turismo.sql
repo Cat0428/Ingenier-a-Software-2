@@ -1,15 +1,26 @@
-CREATE DATABASE DBMedellin_Turismo
+CREATE DATABASE DBMedellin_Turismo;
 
-USE DBMedellin_Turismo
+USE DBMedellin_Turismo;
 
+
+-- Crear tabla ROL
+CREATE TABLE ROL (
+    ID INT IDENTITY PRIMARY KEY,
+    Nombre NVARCHAR(100),
+    Descripción NVARCHAR(255)
+);
+
+-- Crear tabla USUARIO
 CREATE TABLE USUARIO (
     ID INT IDENTITY PRIMARY KEY,
     Nombre NVARCHAR(100),
     Correo NVARCHAR(100) UNIQUE,
     Contraseña NVARCHAR(255),
-	Rol NVARCHAR (100)
+    RolID INT,
+    FOREIGN KEY (RolID) REFERENCES ROL(ID)
 );
 
+-- Crear tabla LUGAR
 CREATE TABLE LUGAR (
     ID INT IDENTITY PRIMARY KEY,
     Nombre VARCHAR(150),
@@ -21,6 +32,7 @@ CREATE TABLE LUGAR (
     Contacto NVARCHAR(100)
 );
 
+-- Crear tabla RESEÑA
 CREATE TABLE RESEÑA (
     ID INT IDENTITY PRIMARY KEY,
     UsuarioID INT,
@@ -31,10 +43,13 @@ CREATE TABLE RESEÑA (
     FOREIGN KEY (UsuarioID) REFERENCES USUARIO(ID) ON DELETE CASCADE,
     FOREIGN KEY (LugarID) REFERENCES LUGAR(ID) ON DELETE CASCADE
 );
+
+-- Crear tabla EVENTO
 CREATE TABLE EVENTO (
     ID INT IDENTITY PRIMARY KEY,
     Nombre NVARCHAR(150),
     Descripción NVARCHAR(100),
+    Categoría NVARCHAR(100),
     Fecha DATETIME,
     LugarID INT,
     OrganizadorID INT,
