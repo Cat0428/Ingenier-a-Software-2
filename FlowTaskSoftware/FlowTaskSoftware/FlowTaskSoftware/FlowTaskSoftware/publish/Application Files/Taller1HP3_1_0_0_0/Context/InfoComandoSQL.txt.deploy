@@ -1,0 +1,5 @@
+﻿SqlConnection → Establece la conexión con SQL Server.
+SqlCommand → Ejecuta comandos SQL ( SELECT , INSERT , etc.).
+SqlParameter → Evita ataques SQL Injection al manejar datos dinámicos.
+SqlDataReader → Lee datos en modo conectado.
+DataSet y DataTable → Permiten trabajar en modo desconectado.

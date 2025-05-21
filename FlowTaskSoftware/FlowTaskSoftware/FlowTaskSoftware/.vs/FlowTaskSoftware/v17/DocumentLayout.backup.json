@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vanit\\Downloads\\FlowTaskSoftware\\FlowTaskSoftware\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D4AC4B9-953A-469A-9030-C4F849588A32}|FlowTaskSoftware\\FlowTaskSoftware.csproj|C:\\Users\\vanit\\Downloads\\FlowTaskSoftware\\FlowTaskSoftware\\flowtasksoftware\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5D4AC4B9-953A-469A-9030-C4F849588A32}|FlowTaskSoftware\\FlowTaskSoftware.csproj|solutionrelative:flowtasksoftware\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D4AC4B9-953A-469A-9030-C4F849588A32}|FlowTaskSoftware\\FlowTaskSoftware.csproj|c:\\users\\vanit\\downloads\\flowtasksoftware\\flowtasksoftware\\flowtasksoftware\\context\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D4AC4B9-953A-469A-9030-C4F849588A32}|FlowTaskSoftware\\FlowTaskSoftware.csproj|solutionrelative:flowtasksoftware\\context\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\vanit\\Downloads\\FlowTaskSoftware\\FlowTaskSoftware\\FlowTaskSoftware\\App.config",
+              "RelativeDocumentMoniker": "FlowTaskSoftware\\App.config",
+              "ToolTip": "C:\\Users\\vanit\\Downloads\\FlowTaskSoftware\\FlowTaskSoftware\\FlowTaskSoftware\\App.config",
+              "RelativeToolTip": "FlowTaskSoftware\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-16T01:50:59.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\vanit\\Downloads\\FlowTaskSoftware\\FlowTaskSoftware\\FlowTaskSoftware\\Context\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "FlowTaskSoftware\\Context\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\vanit\\Downloads\\FlowTaskSoftware\\FlowTaskSoftware\\FlowTaskSoftware\\Context\\DatabaseHelper.cs",
+              "RelativeToolTip": "FlowTaskSoftware\\Context\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T01:50:39.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
